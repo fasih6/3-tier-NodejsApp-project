@@ -46,7 +46,7 @@ function Dashboard() {
   return (
     <div className="container">
       <div className="header">
-        <h2>User Manager (React + Node + MySQL)</h2>
+        <h2>User Manager (React + Node + MySQL) </h2>
         <div>
           {user?.name} (<b>{user?.role}</b>) <button onClick={logout}>Logout</button>
         </div>
